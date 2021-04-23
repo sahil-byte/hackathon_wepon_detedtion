@@ -15,15 +15,15 @@ CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
 
 
 def main():
-    cap = cv2.VideoCapture(0)
+    Vid_cap = cv2.VideoCapture(0)
     #captures one image per 30 framesvideo_capture.set(1,30)
-    cap.set(1,30)
+    Vid_cap.set(1,30)
     fps_start_time = datetime.datetime.now()
     fps = 0
     total_frames = 0
 
     while True:
-        _, frame = cap.read()
+        _, frame = Vid_cap.read()
         frame = imutils.resize(frame, width=500)
         total_frames = total_frames + 1
 
@@ -62,7 +62,7 @@ def main():
         key = cv2.waitKey(1)
         if key == ord('q'):
             break
-    cap.release()    
+    Vid_cap.release()    
     cv2.destroyAllWindows()
 
 

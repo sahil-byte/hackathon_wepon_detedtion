@@ -1,2 +1,2 @@
-# hackathon_wepon_detedtion
+# hackathon_wepon_detection
 Hope fully a weapon detection system.
