@@ -5,4 +5,7 @@ We are making a wepon detection system.
 
 ## Starting with a small step
 
-first i am going to make a person detetection module with OpenCV using Transfer Learning, due to time constraint. 
+first i am going to make a person detetection module with OpenCV using Transfer Learning(pre existing modules of MobileNetSSD), due to time constraint. 
+
+we are done with the training and weight files and config files.
+
