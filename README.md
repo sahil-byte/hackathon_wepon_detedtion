@@ -9,3 +9,11 @@ first i am going to make a person detetection module with OpenCV using Transfer 
 
 we are done with the training and weight files and config files.
 
+### Weight file missing.
+
+Did'nt uploaded the weight file of yolo due to large file size.
+
+## And Dataset ?
+
+that was even more heavy.
+
