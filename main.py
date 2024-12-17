@@ -2,7 +2,7 @@
 """
 Created on Sun Apr 25 00:49:46 2021
 
-@author: Sahil
+@author: Sahil Sutty
 """
 import cv2
 import argparse
